@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Taniti Website</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+        <link
+            rel="stylesheet"
+            href="https://www.w3schools.com/lib/w3-theme-black.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body id="myPage">
+
+        <!-- Navbar -->
+        <div class="w3-top">
+            <div class="w3-bar w3-theme-d2 w3-left-align">
+                <a href="/index.html" class="w3-bar-item w3-button w3-teal"><i
+                        class="fa fa-home w3-margin-right"></i>Home</a>
+                <a
+                    href="/accomodations.html"
+                    class="w3-bar-item w3-button w3-hide-small w3-hover-white">Accomodations</a>
+                <a
+                    href="/attractions.html"
+                    class="w3-bar-item w3-button w3-hide-small w3-hover-white">Attractions</a>
+                <a
+                    href="/transportation.html"
+                    class="w3-bar-item w3-button w3-hide-small w3-hover-white">Transportation</a>
+                <a
+                    href="/contact-us.html"
+                    class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact
+                    Us</a>
+            </div>
+
+            <!-- Navbar on small screens -->
+            <div
+                id="navDemo"
+                class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+                <a href="/accomodations" class="w3-bar-item w3-button">Accomodations</a>
+                <a href="/attractions.html" class="w3-bar-item w3-button">attractions</a>
+                <a href="/transportation.html" class="w3-bar-item w3-button">Transportation</a>
+                <a href="/contact-us.html" class="w3-bar-item w3-button">Contact
+                    Us</a>
+            </div>
+        </div>
+
+        <!-- Image Header -->
+        <div class="w3-display-container w3-animate-opacity">
+            <img
+                src="/images/sunset.jpg"
+                alt="boat"
+                style="width: 100%; min-height: 350px; max-height: 600px" />
+        </div>
+
+        <!-- Team Container -->
+        <div class="w3-container w3-padding-64 w3-center" id="team">
+            <h2>Taniti</h2>
+            <p>Attractions</p>
+            <div class="w3-row"><br /></div>
+        </div>
+
+        <!-- Work Row -->
+        <div
+            class="w3-container w3-row-padding w3-padding-64 w3-theme-l1 w3-center"
+            id="team">
+            <div class="w3-quarter"><br /></div>
+            <div class="w3-cell-middle w3-half">
+                <h2>Top 5 attractions in Taniti</h2>
+                <ul style="list-style-type: none;">
+                    <li>Taniti City Streets</li>
+                    <li>Taniti White sandy beaches near Yellow Leaf Bay</li>
+                    <li>Taniti Rain forest</li>
+                    <li>Taniti Volcano</li>
+                    <li>The all in one bus and boat tour</li>
+                </ul>
+                <H2>Plenty of activities</H2>
+                <h3>Sightseeing</h3>
+                <p>
+                    Most tourists spend most of their time in Taniti City, which boasts native architecture and nearby white, sandy beaches that encircle Yellow Leaf Bay. 
+                    Other popular activities include boat or bus tours of the island, hikes in the rainforest, or visits to Taniti’s active volcano.
+                </p>
+                <h3>Entertainment</h3>
+                <p>
+                    Most people visit Taniti to enjoy the beaches, explore the rainforest, and to visit the volcano. 
+                    However, there are other things to do, including visiting a local history museum, going on chartered fishing tours, snorkeling, zip-lining in the rainforest, 
+                    visiting several pubs, including a microbrewery, dancing at a new dance club, seeing a movie, taking helicopter rides, playing at an arcade, visiting art galleries, and bowling. 
+                    Also, a nine-hole golf course should be operational by next year. Many of these activities are located in Merriton Landing, which is a rapidly developing area on the north side of Yellow Leaf Bay. 
+                </p>
+                <h3>Restaurants</h3>
+                <p>
+                    Taniti currently has 10 restaurants: five serve mostly local fish and rice, three serve American-style meals, 
+                    and two serve Pan-Asian cuisine.
+                </p>
+            </div>
+
+            <!-- Image of location/map -->
+
+            <div
+                style="position: relative; bottom: 100px; z-index: 1"
+                class="w3-tooltip w3-right">
+                <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+                <a class="w3-button w3-theme" href="#myPage"><span
+                        class="w3-xlarge">
+                        <i class="fa fa-chevron-circle-up"></i></span></a>
+            </div>
+        </footer>
+
+        <script>
+
+      // Used to toggle the menu on smaller screens when clicking on the menu button
+      function openNav() {
+        var x = document.getElementById('navDemo');
+        if (x.className.indexOf('w3-show') == -1) {
+          x.className += ' w3-show';
+        } else {
+          x.className = x.className.replace(' w3-show', '');
+        }
+      }
+    </script>
+    </body>
+</html>
